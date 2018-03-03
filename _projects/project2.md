@@ -59,7 +59,7 @@ var svg = d3.select("div#example").append("svg")
 		.attr("transform", "translate(" + marginSide + "," + marginSide + ")");
 
 
-var womendata = {{ site.data.womenlight | jsonify }};
+var womendata = {{ site.data.women | jsonify }};
 console.log(womendata);
 
 // Nesting to group data by continent
