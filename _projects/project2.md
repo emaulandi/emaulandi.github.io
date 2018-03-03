@@ -58,7 +58,7 @@ var svg = d3.select("div#example").append("svg")
 		.append("g")
 		.attr("transform", "translate(" + marginSide + "," + marginSide + ")");
 
-//console.log("site.data.women", site.data.women);
+
 var womendata = {{ site.data.women | jsonify }};
 //console.log(womendata);
 
@@ -69,7 +69,7 @@ var nestWomen = d3.nest()
 	})
 	.entries(womendata)
 
-//console.log('nestWomen:',nestWomen);
+console.log('nestWomen:',nestWomen);
 
 //Double Nesting to know list of countries for each continent
 var nestContCountry = d3.nest()
