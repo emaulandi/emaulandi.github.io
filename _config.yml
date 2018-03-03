@@ -24,11 +24,22 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: edithmaulandi
 github_username:  emaulandi
 
+collections:
+  projects:
+    output: true
+
+header_pages:
+  - portfolio.md
+  - hireme.md
+  - about.md
+  
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
