@@ -17,7 +17,7 @@ Source
 .tooltip {
 	position: absolute;
 	width: 230px;
-	height: 40px;
+	height: 50px;
 	stroke: black;
 	pointer-events: none;
 	font-size: 12px;			
