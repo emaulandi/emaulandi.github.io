@@ -9,7 +9,7 @@ Suspendisse a convallis nulla. Vestibulum nec ullamcorper est. Curabitur a torto
 
 <div id="example"></div>
 
-<script src="http://d3js.org/d3.v4.min.js"></script>
+<script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
 console.log('yo');
