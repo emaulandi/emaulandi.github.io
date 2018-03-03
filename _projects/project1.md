@@ -12,8 +12,6 @@ Suspendisse a convallis nulla. Vestibulum nec ullamcorper est. Curabitur a torto
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
-console.log('yo');
-
 function drawChart() {
 
   var svg = d3.select("div#example").append("svg");
