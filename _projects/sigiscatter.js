@@ -13,18 +13,18 @@ var marginSide = 30;
 /// TOOLTIP ///
 // Add a div that will go wherever in the body 
 
-var tooltip = d3.select("body").append("div")
-	.attr("class", "tooltip")
+var tooltip2 = d3.select("body").append("div")
+	.attr("class", "tooltip2")
 	.style("opacity", 0);
 	
 
 // LOADING CSV
 d3.csv("../jsdata/sigisubindex.csv", function(inputdata) {
 
-	console.log(inputdata);
+	//console.log("project 2 input sigi scatter",inputdata);
 	
 	
-    data = inputdata.map(function(d) {    
+    dataSIGI = inputdata.map(function(d) {    
         return {
         	"country": d.Country,
         	"parliament2014": +d.parliament2014,
@@ -37,7 +37,7 @@ d3.csv("../jsdata/sigisubindex.csv", function(inputdata) {
         } ;
     });
   
-    console.log("output data:",data);
+    console.log("project 2 sigi scatter output data:",data);
     var subindex = [
 			{
 				"label": "Discriminatory family code",
@@ -72,7 +72,7 @@ d3.csv("../jsdata/sigisubindex.csv", function(inputdata) {
     //DRAWING
     for(var i=0 ; i<subindex.length; i++){
     	//console.log(subindex[i]);
-    	draw(data,subindex[i]);  
+    	drawSIGI(dataSIGI,subindex[i]);  
 	}
     
 	/*
@@ -97,9 +97,10 @@ d3.csv("../jsdata/sigisubindex.csv", function(inputdata) {
 
 });
 
-function draw(data,index){
+function drawSIGI(data,index){
     
 	// CREATE DRAWING PART MOVED 30,30 FROM SVG
+	console.log('index',index);
 	var selection = d3.select(index.id)
 	.attr("width", chartSize + 2*marginSide)
 	.attr("height", chartSize + 2*marginSide)
@@ -152,12 +153,12 @@ function draw(data,index){
 		(d,i) => {return yScale(d.parliament2014);})
 	.attr("r", 5)
 	.style("fill",
-		(d,i) => {return color(d[index.label]);})
+		(d,i) => {return colorSIGI(d[index.label]);})
 	    .on("mouseover", function(d,i) {
-		handleOnTooltip(d.country,tooltip);
+		handleOnTooltipSIGI(d.country,tooltip2);
 	})
 	.on("mouseout", function(d,i) {
-		handleOutTooltip(d,tooltip);
+		handleOutTooltipSIGI(d,tooltip2);
 	});
 
 	
@@ -180,7 +181,7 @@ function draw(data,index){
 
 
 
-function color(d){
+function colorSIGI(d){
 	var color = "LightGray";
 
 	if (d > 0.5) {color = "LightSkyBlue";}	
@@ -188,7 +189,7 @@ function color(d){
 	
 }
 
-function handleOnTooltip(d, tooltip) {
+function handleOnTooltipSIGI(d, tooltip) {
 	tooltip.transition()
    		.duration(10)
    		.style("opacity", .9);
@@ -200,7 +201,7 @@ function handleOnTooltip(d, tooltip) {
 
 }
 
-function handleOutTooltip(d, tooltip) {
+function handleOutTooltipSIGI(d, tooltip) {
 	tooltip.transition()
        .duration(10)
        .style("opacity", 0);

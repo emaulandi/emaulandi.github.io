@@ -23,6 +23,12 @@ Is there facts and discrimination that prevent women to access politics ?
 * The case for gender equality
 * So how are we getting there ?
 
+## Did quotas bring more Women into Politics ?
+<div>
+	<div id ="continentDropdown"></div>
+	<svg id="vote"></svg>
+</div>
+
 
 ## Is the current women proportion in Politics enough to reach gender equality on the ground ? Does it actually matter ?
 ### Policy indicator SIGI study measures of discrimination against women in social institutions show less nice world
@@ -33,12 +39,13 @@ Is there facts and discrimination that prevent women to access politics ?
 </div>
 
 <div>
-	<p> Explanations </p>
 	<svg id="sub3"></svg>
 	<svg id="sub4"></svg>
 </div>
 
 
 <script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="votescatter.js">	</script>
 <script src="sigiscatter.js">	</script>
+
 <link rel="stylesheet" href="sigisubindex.css">

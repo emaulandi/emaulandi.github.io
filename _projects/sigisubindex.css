@@ -5,6 +5,13 @@
 	font-weight: bold;			
 }
 
+.tooltip2 {
+	position: absolute;
+	pointer-events: none;
+	font-size: 11px;
+	font-weight: bold;			
+}
+
 .label {
 	font-weight: bold;
 	font-size: 12px;
