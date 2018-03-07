@@ -37,7 +37,7 @@ d3.csv("../jsdata/sigisubindex.csv", function(inputdata) {
         } ;
     });
   
-    console.log("project 2 sigi scatter output data:",data);
+    console.log("project 2 sigi scatter output data:",dataSIGI);
     var subindex = [
 			{
 				"label": "Discriminatory family code",
@@ -61,10 +61,10 @@ d3.csv("../jsdata/sigisubindex.csv", function(inputdata) {
     var percFormat = d3.format(".0%");
     for(var i=0 ; i<subindex.length; i++){
 		var number = 0;
-		data.forEach( (g) => {
+		dataSIGI.forEach( (g) => {
 			if (g[subindex[i].label] > 0.5) { number++; }
 		})
-		subindex[i].perc = percFormat(number / data.length);
+		subindex[i].perc = percFormat(number / dataSIGI.length);
 		//console.log(number); 
 	}
 	//console.log(subindex);

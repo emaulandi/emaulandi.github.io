@@ -30,7 +30,6 @@ collections:
 
 header_pages:
   - portfolio.md
-  - hireme.md
   - about.md
   
 # Build settings
