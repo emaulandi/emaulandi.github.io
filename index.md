@@ -5,4 +5,9 @@
 layout: home
 ---
 
-Hello
+Hello ! :wave:
+
+This is work in progress  :construction_worker:
+* Have a look at my projects in the **Portofolio** section
+
+* See more about me in the **About** section

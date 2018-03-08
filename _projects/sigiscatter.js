@@ -27,7 +27,7 @@ d3.csv("../jsdata/sigisubindex.csv", function(inputdata) {
     dataSIGI = inputdata.map(function(d) {    
         return {
         	"country": d.Country,
-        	"parliament2014": +d.parliament2014,
+        	"parliament2014": +d.parliament2014 / 100,
         	"sigi": +d.SIGI,
         	"Discriminatory family code": +d["Discriminatory family code"],
         	//"Restricted civil liberties": +d.["Discriminatory family code"],
@@ -105,12 +105,12 @@ function drawSIGI(data,index){
 	.attr("width", chartSize + 2*marginSide)
 	.attr("height", chartSize + 2*marginSide)
 		.append("g")
-		.attr("transform", "translate(" + marginSide + "," + marginSide + ")");
+		.attr("transform", "translate(" + (marginSide + 10) + "," + marginSide + ")");
 
 	
 	var yScale = d3.scaleLinear()
 		.range([chartSize,0])
-		.domain([0,100]);
+		.domain([0,1]);
 		
 	var xScale = d3.scaleLinear()
 		.range([0, chartSize])
@@ -123,11 +123,16 @@ function drawSIGI(data,index){
 	var xAxisSelector = selection.append("g")
 		.attr("transform", "translate(" + 0 + "," + chartSize + ")")
 		.attr("class","ax")
-		.call(xAxis.ticks(5));
+		.call(xAxis
+			.ticks(5)
+		);
 
 	selection.append("g")
 		.attr("class","ax")
-		.call(yAxis.ticks(5));
+		.call(yAxis
+			.ticks(5)
+			.tickFormat(d3.format(".0%"))
+		);
 	
 	//LEGEND
 	selection
