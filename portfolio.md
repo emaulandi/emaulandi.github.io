@@ -4,7 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-This is the portfolio
+See my last projects here.
 
 {% for item in site.projects %}
   <h4>{{ item.title }}</h4>

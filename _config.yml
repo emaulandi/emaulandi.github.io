@@ -16,9 +16,10 @@
 title: Edith Visualize
 email: e.maulandi@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  On a journey to understand the world through data and information vizualisation. 
+  From data research in the wild to dataviz conception and implementation.
+  Always surprised how visual stuff go so fast in your brain.
+  Love and learn D3.js
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: edithmaulandi

@@ -12,6 +12,13 @@
 	font-weight: bold;			
 }
 
+.tooltip3 {
+	position: absolute;
+	pointer-events: none;
+	font-size: 11px;
+	font-weight: bold;			
+}
+
 .label {
 	font-weight: bold;
 	font-size: 12px;
@@ -36,6 +43,35 @@ line {
 	opacity: 0.5;
 }
 
+.xaxis text {
+	opacity: 0.5;
+}
+
+.yaxis text {
+	opacity: 0.5;
+}
+
 .domain {
 	stroke: gray;
+}
+
+.labelaxis {
+	font-size: 12px;
+	fill: gray;
+	text-anchor: end;
+}
+
+.circleLabel {
+	font-size: 12px;
+	fill: gray;
+}
+
+.quotasLegend {
+	font-size: 11px;
+	fill: gray;
+}
+
+.voteLegend {
+	font-size: 11px;
+	fill: gray;
 }
