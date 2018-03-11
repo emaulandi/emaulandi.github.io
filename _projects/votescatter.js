@@ -37,15 +37,15 @@ var selectionVote = d3.select("#vote")
 // SAME SCALE FOR ALL
 var yScale = d3.scaleLinear()
 	.range([VOTEchartSize,0])
-	.domain([0,0.6]);
+	.domain([0,0.7]);
 	
 var xScale = d3.scaleLinear()
 	.range([0, VOTEchartSize])
 	.domain([1850,2017]);
 	
 var quotasLegend = [
-	{"value": 0, "descr":"Quotas"},
-	{"value": 0.5, "descr":"A little bit qutoas"},
+	{"value": 0, "descr":"Quotas at national AND sub-national levels"},
+	{"value": 0.5, "descr":"Quotas at national OR sub-national levels"},
 	{"value": 1, "descr":"No quotas"},
 	{"value": -1, "descr":"No data"}
 ];
@@ -423,7 +423,7 @@ function drawQuotas(data){
 	.append("circle")
 	.attr("class","quotasLegend")
 	.attr("cx", 
-		(d,i) => {return (VOTEchartSize - 40);})
+		(d,i) => {return (43);})
 	.attr("cy", 
 		(d,i) => {return (10 + i*15);})
 	.attr("r", 4)
@@ -436,7 +436,7 @@ function drawQuotas(data){
 	.append("text")
 	.attr("class","quotasLegend")
 	.attr("x", 
-		(d,i) => {return (VOTEchartSize - 30);})
+		(d,i) => {return (50);})
 	.attr("y", 
 		(d,i) => {return (13 + i*15);})
 	.text( (d,i) => {return d.descr;})
@@ -519,11 +519,11 @@ function color(d){
 function colorContinent(continent){
 	var color;
 	if (continent == "Asia") {color = 'YellowGreen'}
-	else if (continent == "South America") {color = 'Peru'}
-	else if (continent == "North America") {color = 'Chocolate'}
+	else if (continent == "South America") {color = 'Salmon'}
+	else if (continent == "North America") {color = 'RebeccaPurple'}
 	else if (continent == "Africa") {color = 'Gold'}
 	else if (continent == "Europe") {color = 'DeepSkyBlue'}
-	else if (continent == "Oceania") {color = 'Tomato'}
+	else if (continent == "Oceania") {color = 'DarkOliveGreen '}
 	return color;
 	
 }

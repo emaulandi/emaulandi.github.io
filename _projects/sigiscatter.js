@@ -176,7 +176,7 @@ function drawSIGI(data,index){
     .attr("x2", 
     	(d,i) => {return xScale(0.5);})
     .attr("y2",
-    	(d,i) => {return yScale(85);})
+    	(d,i) => {return yScale(0.85);})
 
 	/*
 	.style("fill", (d,i) => {return color(d.continent);})
