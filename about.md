@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+lang: en
+ref: about
 ---
 Hi ! I'm Edith :wave:  Nice to meet you !
 

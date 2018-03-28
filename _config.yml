@@ -15,23 +15,26 @@
 # in the templates via {{ site.myvariable }}.
 title: Edith Visualize
 email: e.maulandi@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  On a journey to understand the world through data and information vizualisation. 
-  From data research in the wild to dataviz conception and implementation.
-  Always surprised how visual stuff go so fast in your brain.
-  Love and learn D3.js
+description: # this means to ignore newlines until "baseurl:"
+  en: On a journey to understand the world through data and information vizualisation. From data research in the wild to dataviz conception and implementation. Always surprised how visual stuff go so fast in your brain. Love and learn D3.js
+  fr: En route pour comprendre le monde grâce à la visualisation de données et d'information. De la recherche de données, à la conception et implémentation de dataviz. Toujours impressionnée par la manière dont le visuel nous permet de comprendre en quelques secondes. Fan de D3.js
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: edithmaulandi
 github_username:  emaulandi
+author: Edith Maulandi
 
 collections:
   projects:
     output: true
 
-header_pages:
-  - portfolio.md
+menu:
+ en:
   - about.md
+  - feedbacks.md
+ fr:
+  - apropos.md 
+  - retours.md 
   
 # Build settings
 markdown: kramdown

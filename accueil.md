@@ -3,25 +3,25 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title:  The time has come for dataviz
-lang: en
+title: Le temps de la dataviz est venu
+lang: fr
 ref: index
 ---
 
-### Why ?
-#### Create impact and engagement visualizing information and data
+### Pourquoi ?
+#### Créer de l'impact et de l'engagement grâce à la visualisation des données et de l'information 
 
-### How ? 
-* #### Find, clean and explore data, design and implement interactive data storytelling
-* #### Make data insightful and memorable using visualization and interactivity
-* #### Convey strong messages and call to action
+### Comment ? 
+* #### Trouver, nettoyer et explorer les données, designer et implémenter des histoires intéractives autour des données
+* #### Trouver le sens dans les données et le rendre mémorable en utilisant la visualisation et l'intéractivité 
+* #### Transmettre des messages forts et appeler à agir 
 
-### What ?  
-#### Dataviz on the web, article based on data, interactive learning experiences *... and more to come !*
+### Quoi ?  
+#### Dataviz sur le web, article basé sur les données, expérience d'apprentissages intéractive *... et plus à venir !*
 
 <br>
 
-### Projects
+### Projets
 
 {% for project in site.projects %}
 

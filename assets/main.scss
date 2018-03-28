@@ -11,3 +11,54 @@ h3 {
 	color: gray;
 	line-height: 130%;
 }
+
+/** 
+ * Portfolio grid **********************************************************
+*/
+
+.projectblock {
+
+	height: 220px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.projectblock:after {
+        content:"";
+        display: table;
+        clear: both;
+}
+
+.projectblock a {
+    color: #404040;
+}
+
+
+.projectblock a:hover {
+    color: #a6a6a6;
+}
+
+
+
+
+.column {
+    float: left;
+    
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+    height: 220px;
+    background-color: #F0F0F0;
+}
+
+.right span {
+
+	 display:inline-block;
+	 margin: 20px;
+}
+
+
