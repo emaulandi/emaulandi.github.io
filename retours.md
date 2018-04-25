@@ -4,6 +4,12 @@ title: Ils en parlent
 ref: feedbacks
 lang: fr
 ---
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Enseignement du Hackaviz 2018  (code data et visualisation) qui s&#39;est tenu récemment à Toulouse : passionnant ! <a href="https://t.co/lC3GcZXaCM">https://t.co/lC3GcZXaCM</a></p>&mdash; Captain Dash (@captain_dash) <a href="https://twitter.com/captain_dash/status/982884758039482368?ref_src=twsrc%5Etfw">8 avril 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">This is great, Edith! I&#39;ve used these to show diversity breakdowns for clients before. Thanks for creating &amp; sharing! <a href="https://twitter.com/hashtag/SWDchallenge?src=hash&amp;ref_src=twsrc%5Etfw">#SWDchallenge</a> <a href="https://t.co/NelP3TEB8o">https://t.co/NelP3TEB8o</a></p>&mdash; Cole Knaflic (@storywithdata) <a href="https://twitter.com/storywithdata/status/983067160107823104?ref_src=twsrc%5Etfw">8 avril 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Et merci d&#39;avoir si bien contribué en remportant un premier prix mérité!<br>Vive le <a href="https://twitter.com/hashtag/hackaviz?src=hash&amp;ref_src=twsrc%5Etfw">#hackaviz</a> vive la <a href="https://twitter.com/hashtag/DataViz?src=hash&amp;ref_src=twsrc%5Etfw">#DataViz</a> <a href="https://t.co/01menQcpXf">https://t.co/01menQcpXf</a></p>&mdash; Toulouse-DataViz (@Tls_dataviz) <a href="https://twitter.com/Tls_dataviz/status/976608031382364160?ref_src=twsrc%5Etfw">21 mars 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
