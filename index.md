@@ -3,21 +3,12 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title:  The time has come for dataviz
+title:  Information Design
 lang: en
 ref: index
 ---
 
-### Why ?
-#### Create impact and engagement visualizing information and data
-
-### How ? 
-* #### Find, clean and explore data, design and implement interactive data storytelling
-* #### Make data insightful and memorable using visualization and interactivity
-* #### Convey strong messages and call to action
-
-### What ?  
-#### Dataviz on the web, article based on data, interactive learning experiences *... and more to come !*
+### or create impact and engagement visualizing information and data
 
 <br>
 
@@ -25,43 +16,41 @@ ref: index
 
 {% for project in site.projects %}
 
-
 {% if project.redirect %}
-
-<div class="projectblock">
-	<a href="{{ project.redirect }}" target="_blank">
-	<div class="column left test">
-	    <img src="{{ project.img }}"/>
-	</div>
-	<div class="column right">
-	    <span>
-	        <h4><b>{{ project.title }}</b></h4>
-	        <p>{{ project.description }}</p>
-	        <h5><i>{{project.categories | join: ', '}}</i></h5>
-	    </span>
-	</div>
-	</a>
+<div class="projectgrid">
+    <div class="thumbnail">
+        <a href="{{ project.redirect }}" target="_blank">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span>
+            <h1>{{ project.title }}</h1>
+            <p>{{ project.description }}</p>
+            <h5><i>{{project.categories | join: ', '}}</i></h5>
+        </span>
+        </a>
+    </div>
 </div>
-<br>
-
-
 {% else %}
 
-<div class="projectblock">
-	<a href="{{ site.baseurl }}{{ project.url }}">
-	<div class="column left test">    
-	    <img src="{{ project.img }}"/>
-	</div>
-	<div class="column right">
-	    <span>
-	        <h4><b>{{ project.title }}</b></h4>
-	        <p>{{ project.description }}</p>
-	        <h5><i>{{project.categories | join: ', '}}</i></h5>
-	    </span>
-	</div>
-	</a>
+<div class="projectgrid">
+    <div class="thumbnail">
+        <a href="{{ site.baseurl }}{{ project.url }}">
+        {% if project.img %}
+        <img class="thumbnail" src="{{ project.img }}"/>
+        {% else %}
+        <div class="thumbnail blankbox"></div>
+        {% endif %}    
+        <span>
+            <h1>{{ project.title }}</h1>
+            <p>{{ project.description }}</p>
+            <h5><i>{{project.categories | join: ', '}}</i></h5>
+        </span>
+        </a>
+    </div>
 </div>
-<br>
 
 {% endif %}
 
