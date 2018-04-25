@@ -9,7 +9,7 @@ Salut ! Je suis Edith :wave: Ravie de vous rencontrer !
 
 <br>
 
-## **Mon but est de créer de l'impact et de l'engagement grâce à la visualisation de données** 
+## **Mon but est de créer de l'impact et de l'engagement grâce à au design de l'information** 
 ### Je cherche continuellement à trouver la meilleure manière de représenter les données pour déclencher la compréhension et l'action
 
 

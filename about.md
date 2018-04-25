@@ -9,7 +9,7 @@ Hi ! I'm Edith :wave:  Nice to meet you !
 
 <br>
 
-## **My purpose is to create impact and engage through data visualization** 
+## **My purpose is to create impact and engage through information design** 
 ### I am striving to find the best way to represent data to trigger understanding and action
 
 * On a journey to understand the world through data and information vizualisation.  :mag_right:
