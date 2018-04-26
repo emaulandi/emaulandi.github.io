@@ -9,7 +9,7 @@ lang: en
 ---
 *{{page.categories | join: ', '}}*
 
-J'ai testé [Datawrapper](https://www.datawrapper.de/) for this [#MakeoverMonday](http://www.makeovermonday.co.uk/) Week 17, on the Ecological Footprint of countries, thanks to the amzing work of the [Footprint Network](https://www.footprintnetwork.org/)
+I tried [Datawrapper](https://www.datawrapper.de/) for this [#MakeoverMonday](http://www.makeovermonday.co.uk/) Week 17, on the Ecological Footprint of countries, thanks to the amzing work of the [Footprint Network](https://www.footprintnetwork.org/)
  
 In 2017, Overshoot Day fell on August 2 marking the date when humanity has exhausted nature’s budget for the year. 
 
