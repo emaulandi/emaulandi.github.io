@@ -13,8 +13,8 @@ ref: index
 <br>
 
 ### Projets
-
-{% for project in site.projects %}
+{% assign projects=site.projects | where:"lang", page.lang %}
+{% for project in projects %}
 
 {% if project.redirect %}
 <div class="projectgrid">

@@ -1,15 +1,15 @@
 ---
-title:  Ecological Footprint of countries - Earth Day
+title:  Empreinte écologique des pays de 2014 - Journée de la terre
 layout: page
 categories: [ecological footprint, datawrapper, better chart]
-description: MakeoverMonday W17 - Ecological Footprint of Countries using Datawrapper
+description: MakeoverMonday W17 - Empreinte écologique des pays avec Datawrapper
 img: /img/ecologicalfootprint.jpg
 ref: ecologicalfootprint
-lang: en
+lang: fr
 ---
 *{{page.categories | join: ', '}}*
 
-J'ai testé [Datawrapper](https://www.datawrapper.de/) for this [#MakeoverMonday](http://www.makeovermonday.co.uk/) Week 17, on the Ecological Footprint of countries, thanks to the amzing work of the [Footprint Network](https://www.footprintnetwork.org/)
+J'ai essayé [Datawrapper](https://www.datawrapper.de/) pour le [#MakeoverMonday](http://www.makeovermonday.co.uk/) de la semaine 17, à rpopos de l'empreinte écologique des pays, grâce au génial travail du [Footprint Network](https://www.footprintnetwork.org/)
  
 In 2017, Overshoot Day fell on August 2 marking the date when humanity has exhausted nature’s budget for the year. 
 

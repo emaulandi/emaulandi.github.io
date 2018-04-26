@@ -108,7 +108,14 @@ h3 {
 
 .thumbnail h1 {
 	line-height: 120%;
+	font-size: 20px;
+	font-weight: bold;
 }
+
+.thumbnail p {
+	font-size: 14px;
+}
+
 .thumbnail a span {
 	display: none;
 	position: absolute;
@@ -116,10 +123,11 @@ h3 {
 	left: 0;
 	bottom: 0;
 	right: 0;
-	background: rgba(0,0,0,0.4);
-	color: $grey-color-light;
-	padding: 10px;
+	background: grey;
+	color: white;
+	padding: 20px;
 	text-align: center;
+	line-height: 120%;
 }
 .thumbnail a:hover span {
 	display: block;

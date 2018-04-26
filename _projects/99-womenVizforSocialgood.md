@@ -1,6 +1,6 @@
 ---
 title: Women and politics - What will bring more equality ?
-layout: projects
+layout: page
 categories: [Viz for Social Good, D3.js, Women's rights]
 description: Viz for Social Good - March 2018. Does more women in politics relate to more gender equality at the end ? Is it the only way to achieve more equality ? And also, is there facts and discrimination that prevent women to access politics ?
 img: /img/imgWomen3.jpg

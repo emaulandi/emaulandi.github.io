@@ -1,11 +1,11 @@
 ---
-title:  Explaining something visually everyday 
+title:  Expliquer visuellement quelquechose tous les jours
 layout: projects
 categories: [information design, creativity, by hand, explain]
-description: the100daysproject, challenge accepted ! Or how to push your creative process by making the same kind of creation everyday for 100 days !
+description: the100daysproject, challenge accepté ! Ou comment pousser son processus créatif en créant le même type de chose 100 jours d'affilé
 img: /img/100daysproject.png
 redirect: https://www.instagram.com/edith.visualize/
 ref: 100daysproject
-lang: en
+lang: fr
 ---
 *{{page.categories | join: ', '}}*
