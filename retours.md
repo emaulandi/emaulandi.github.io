@@ -4,6 +4,12 @@ title: Ils en parlent
 ref: feedbacks
 lang: fr
 ---
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">This is awesome. Nice work. Cc <a href="https://twitter.com/cynduja?ref_src=twsrc%5Etfw">@cynduja</a>  <a href="https://t.co/f0ghpg0X6O">https://t.co/f0ghpg0X6O</a></p>&mdash; Reveal (@reveal) <a href="https://twitter.com/reveal/status/990007871747305479?ref_src=twsrc%5Etfw">27 avril 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Really excited to see the SV diversity data being put to use <a href="https://twitter.com/edithmaulandi?ref_src=twsrc%5Etfw">@edithmaulandi</a> <a href="https://twitter.com/willCIR?ref_src=twsrc%5Etfw">@willCIR</a> <a href="https://t.co/MEtDQ71DCa">https://t.co/MEtDQ71DCa</a></p>&mdash; Sinduja Rangarajan (@cynduja) <a href="https://twitter.com/cynduja/status/990008943811280896?ref_src=twsrc%5Etfw">27 avril 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">Enseignement du Hackaviz 2018  (code data et visualisation) qui s&#39;est tenu récemment à Toulouse : passionnant ! <a href="https://t.co/lC3GcZXaCM">https://t.co/lC3GcZXaCM</a></p>&mdash; Captain Dash (@captain_dash) <a href="https://twitter.com/captain_dash/status/982884758039482368?ref_src=twsrc%5Etfw">8 avril 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
