@@ -6,6 +6,9 @@ ref: feedbacks
 lang: en
 ---
 
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">Excited to announce the results of the <a href="https://twitter.com/hashtag/VizforSocialGood?src=hash&amp;ref_src=twsrc%5Etfw">#VizforSocialGood</a> + <a href="https://twitter.com/DearTechPeople?ref_src=twsrc%5Etfw">@DearTechPeople</a> project.<br><br>Increasing diversity in tech has been my passion, and I couldn’t be prouder to see how our amazing volunteers used visualization to tell important stories about diversity. We need this. <a href="https://t.co/6z6k0rlRhs">pic.twitter.com/6z6k0rlRhs</a></p>&mdash; Chloe Tseng (@datachloe) <a href="https://twitter.com/datachloe/status/1005146240764428288?ref_src=twsrc%5Etfw">8 juin 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 <blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">This is awesome. Nice work. Cc <a href="https://twitter.com/cynduja?ref_src=twsrc%5Etfw">@cynduja</a>  <a href="https://t.co/f0ghpg0X6O">https://t.co/f0ghpg0X6O</a></p>&mdash; Reveal (@reveal) <a href="https://twitter.com/reveal/status/990007871747305479?ref_src=twsrc%5Etfw">27 avril 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
