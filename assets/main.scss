@@ -12,7 +12,11 @@ h3 {
 	line-height: 130%;
 }
 
-/** 
+body {
+	font-family: sans-serif;
+}
+
+/**
  * Portfolio grid LIST **********************************************************
 */
 
@@ -23,9 +27,9 @@ h3 {
 }
 
 .projectblock:after {
-        content:"";
-        display: table;
-        clear: both;
+	  content:"";
+	  display: table;
+	  clear: both;
 }
 
 .projectblock a {
@@ -42,7 +46,7 @@ h3 {
 
 .column {
     float: left;
-    
+
 }
 
 .left {
@@ -61,29 +65,34 @@ h3 {
 	 margin: 20px;
 }
 
-/** 
+/**
  * Portfolio grid **********************************************************
 */
 
 .projectgrid {
 	width: 46%;
-	height: 300px;
+	height: 295px;
 	float: left;
 	vertical-align: middle;
 	box-sizing: border-box;
-	padding: 10px;
+	//padding: 10px;
+
+	// tests
+	border: solid white 2px;
+	box-shadow: 0px 1px 4px rgba(0, 0, 0, .3);
+	margin: 10px;
 }
 
 @media only screen and (max-width: 700px) {
 	.projectgrid {
 		width: 100%;
 	}
-	
+
 	.thumbnail img{
 		height: 300px;
 		width: 300px;
 	}
-	
+
 	.thumbnail {
 		width: 290px;
 	}
@@ -132,5 +141,3 @@ h3 {
 .thumbnail a:hover span {
 	display: block;
 }
-
-
