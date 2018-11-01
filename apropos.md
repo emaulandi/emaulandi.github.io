@@ -10,7 +10,7 @@ ref: about
   <p> Salut ! Je suis Edith :wave: Ravie de vous rencontrer ! </p>
 </div>
 
-### Je suis freelancer visualisation de données & design de l'information design basée à Montpellier
+### Je suis freelance visualisation de données & design de l'information design basée à Montpellier
 
 <h4> Travaillez avec moi pour designer et produire des histoires ou outils uniques et originaux à partir de vos données</h4>
 
