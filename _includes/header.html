@@ -1,4 +1,5 @@
 <header class="site-header" role="banner">
+  
 
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
@@ -27,9 +28,9 @@
             {%- endif -%}
           {% endfor -%}
         </div>
-        
+
       </nav>
-      
+
     {%- endif -%}
   </div>
 </header>
@@ -37,9 +38,7 @@
 <div class="wrapper" style="text-align: right; line-height: 2em">
 	{% assign projects=site.projects | where:"ref", page.ref | sort: 'lang' %}
 	{% for project in projects %} <a href="{{ project.url | prepend: site.baseurl }}" class="{{ project.lang }}">{{ project.lang }}</a> {% endfor %}
-	
+
 	{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
 	{% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </div>
-
-
