@@ -3,16 +3,58 @@
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
-title:  Information Design
+title: data visualization + information design
 lang: en
 ref: index
 ---
 
-### or create impact and engagement visualizing information and data
+<h3> Project highlight </h3>
 
-<br>
+{% assign clientsprojects=site.projectshighlight | where:"lang", page.lang %}
 
-### Projects
+{% for proj in clientsprojects %}
+
+<div class="clearfix">
+  <div class="projecthighlight">
+    <div class="thumbnail standard">
+      <a href="{{ proj.redirect }}" target="_blank">
+        <img class="thumbnail" src="{{ proj.img }}"/>
+      </a>
+    </div>
+  </div>
+
+  <div class="projecthighlight darkgrid">
+    <h4>{{ proj.title }}</h4>
+    <p >{{ proj.content }}</p>
+    <p class="description-text"> Tech : {{ proj.tech | join: ', '}} </p>
+  </div>
+</div>
+
+{% endfor %}
+
+<h3> Client's projects </h3>
+
+{% assign clientsprojects=site.clientsprojects | where:"lang", page.lang %}
+
+{% for proj in clientsprojects %}
+
+<div class="clearfix">
+  <div class="clientsprojects client-img">
+    <div class="thumbnail half">
+        <img class="thumbnail " src="{{ proj.img }}"/>
+    </div>
+  </div>
+  <div class="clientsprojects client-text darkgrid ">
+    <h4>{{ proj.title }}</h4>
+    <p class="greytext"> {{ proj.status }} </p>
+    <div class="client-description">{{ proj.content }}</div>
+    <p class="description-text"> Tech : {{ proj.tech | join: ', '}} </p>
+  </div>
+</div>
+<hr>
+{% endfor %}
+
+### Personal projects
 
 {% assign projects=site.projects | where:"lang", page.lang %}
 {% for project in projects %}

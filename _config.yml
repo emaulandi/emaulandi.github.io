@@ -13,19 +13,28 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Edith Visualize
+title: Edith Maulandi
 email: e.maulandi@gmail.com
 description: # this means to ignore newlines until "baseurl:"
-  en: On a journey to understand the world through data and information vizualisation. From data research in the wild to dataviz conception and implementation. Always surprised how visual stuff go so fast in your brain. Love and learn D3.js
-  fr: En route pour comprendre le monde grâce à la visualisation de données et d'information. De la recherche de données, à la conception et implémentation de dataviz. Toujours impressionnée par la manière dont le visuel nous permet de comprendre en quelques secondes. Fan de D3.js
+  en: My purpose is to create impact and engage through information design. I am striving to find the best way to represent data to trigger understanding and action.
+  fr: Mon but est de créer de l’impact et de l’engagement grâce à au design de l’information. Je cherche continuellement à trouver la meilleure manière de représenter les données pour déclencher la compréhension et l’action
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: edithmaulandi
 github_username:  emaulandi
+linkedin_username: edith-m-12329070
+pinterest_username: edithpatey
+instagram_username: edith.visualize
 author: Edith Maulandi
 
 collections:
   projects:
+    output: true
+  clientsprojects:
+    output: true
+  projectshighlight:
+    output: true
+  inspiration:
     output: true
 
 menu:
@@ -33,10 +42,12 @@ menu:
   - talks-en.md
   - about.md
   - feedbacks.md
+  - inspiration-en.md
  fr:
   - talks-fr.md
   - apropos.md
   - retours.md
+  - inspiration-fr.md
 
 # Build settings
 markdown: kramdown
