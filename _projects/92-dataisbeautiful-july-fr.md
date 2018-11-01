@@ -6,6 +6,6 @@ description: Which birds eat which seeds ? 🐣 A live test of the FORCE to visu
 img: img/92-dataisbeautiful-july.png
 redirect: https://emaulandi.github.io/dataisbeautiful-reddit/july/
 ref: dataisbeautiful-july
-lang: fr
+lang: en
 ---
 *{{page.categories | join: ', '}}*

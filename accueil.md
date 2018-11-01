@@ -73,8 +73,9 @@ ref: index
         {% endif %}    
         <span>
             <h1>{{ project.title }}</h1>
+            <hr class="hr-border-small">
             <p>{{ project.description }}</p>
-            <h5><i>{{project.categories | join: ', '}}</i></h5>
+            <p><i>{{project.categories | join: ', '}}</i></p>
         </span>
         </a>
     </div>
@@ -91,8 +92,9 @@ ref: index
         {% endif %}    
         <span>
             <h1>{{ project.title }}</h1>
+            <hr class="hr-border-small">
             <p>{{ project.description }}</p>
-            <h5><i>{{project.categories | join: ', '}}</i></h5>
+            <p><i>{{project.categories | join: ', '}}</i></p>
         </span>
         </a>
     </div>

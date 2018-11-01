@@ -6,6 +6,6 @@ description: Quels oiseaux mangent quelles graines ? 🐣 Un test live de la FOR
 img: img/92-dataisbeautiful-july.png
 redirect: https://emaulandi.github.io/dataisbeautiful-reddit/july/
 ref: dataisbeautiful-july
-lang: en
+lang: fr
 ---
 *{{page.categories | join: ', '}}*
