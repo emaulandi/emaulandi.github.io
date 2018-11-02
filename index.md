@@ -17,9 +17,9 @@ ref: index
 <div class="clearfix">
   <div class="projecthighlight">
     <div class="thumbnail standard">
-      <a href="{{ proj.redirect }}" target="_blank">
+
         <img class="thumbnail" src="{{ proj.img }}"/>
-      </a>
+
     </div>
   </div>
 

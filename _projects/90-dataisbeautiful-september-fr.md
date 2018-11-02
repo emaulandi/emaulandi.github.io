@@ -4,7 +4,7 @@ layout: projects
 categories: [information design, dataviz, jupyter]
 description: Un poster Pokemon - Les pokémons Légendaires versus les pokémons 'normaux'. Pratique du design artisanal et de Jupyter notebook pour l'analyse des données.
 img: img/90-pokemons.jpg
-redirect: https://github.com/emaulandi/dataisbeautiful-reddit/tree/master/september
+redirect: https://github.com/emaulandi/dataisbeautiful-reddit/blob/master/september/LegendarayRegularPokemons.pdf
 ref: dataisbeautiful-september
 lang: fr
 ---
