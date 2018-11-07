@@ -8,7 +8,7 @@ lang: en
 ref: index
 ---
 
-<h3> Project highlight </h3>
+<h3> Current highlight </h3>
 
 {% assign clientsprojects=site.projectshighlight | where:"lang", page.lang %}
 
@@ -32,7 +32,7 @@ ref: index
 
 {% endfor %}
 
-<h3> Client's projects </h3>
+<h3> Clients' projects </h3>
 
 {% assign clientsprojects=site.clientsprojects | where:"lang", page.lang %}
 

@@ -49,6 +49,6 @@ Je cherche continuellement à trouver la meilleure manière de représenter les 
 <p class="description-text">
 A part la dataviz, j'ai à coeur de développer l'audace et le passage à l'action avec la co-création de l'association
 <a class="niceLink" href="http://lesjoyeuxaudacieux.strikingly.com/" >Les Joyeux Audacieux</a>.
-Je partage aussi mon challenge de l'année pour arriver au zéro déchets sur
+Je partage aussi mon challenge de l'année pour arriver au zéro déchet sur
 <a class="niceLink" href="https://medium.com/@Ed_Patey" >Medium</a>.
 </p>

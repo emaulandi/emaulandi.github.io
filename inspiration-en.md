@@ -5,7 +5,7 @@ ref: inspiration
 lang: en
 ---
 
-To be inspired from others methods and perspective is what makes us growth. In particular, those 3 individuals & collective challenge me everyday and push me to explore further the large data visualization field 😍
+To be inspired from others' methods and perspective is what makes us grow. In particular, those 3 individuals & collective challenge me everyday and push me to explore further the large data visualization field 😍
 
 {% assign inspiration=site.inspiration | where:"lang", page.lang %}
 
