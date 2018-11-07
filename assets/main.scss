@@ -202,6 +202,32 @@ a.niceLink {
 	font-size: 14px;
 }
 
+.hover {
+	float: left;
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.hover span {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: grey;
+	color: white;
+	padding: 20px;
+	text-align: center;
+	line-height: 120%;
+
+}
+
+.projecthighlight:hover span {
+	display: block;
+}
+
 .thumbnail a span {
 	display: none;
 	position: absolute;

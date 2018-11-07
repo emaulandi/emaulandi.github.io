@@ -17,9 +17,16 @@ ref: index
 <div class="clearfix">
   <div class="projecthighlight">
     <div class="thumbnail standard">
-
+        <div class="hover">
         <img class="thumbnail" src="{{ proj.img }}"/>
 
+          <span>
+              <h1> Bientôt disponible </h1>
+              <hr class="hr-border-small">
+              <p> Revenez un peu plus tard 🙌</p>
+          </span>
+
+        </div>
     </div>
   </div>
 
