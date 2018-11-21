@@ -17,18 +17,18 @@ ref: index
 <div class="clearfix">
   <div class="projecthighlight">
     <div class="thumbnail standard">
-        <div class="hover">
+        <a href="{{ proj.redirect }}" target="_blank">
         <img class="thumbnail" src="{{ proj.img }}"/>
 
           <span>
-              <h1> Bientôt disponible </h1>
+              <h1> Nous sommes plus humains que nous le pensons </h1>
               <hr class="hr-border-small">
-              <p> Revenez un peu plus tard 🙌</p>
+              <p> Partie 1 : Rencontrez les 437 personnes interviewées 🙌</p>
+              <p> Utilisez votre ordinateur, cette première partie ne supporte pas encore le mobile 💻</p>
           </span>
-
+          </a>
         </div>
     </div>
-  </div>
 
   <div class="projecthighlight darkgrid">
     <h4>{{ proj.title }}</h4>
