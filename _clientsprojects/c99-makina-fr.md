@@ -1,6 +1,6 @@
 ---
-title:  Makina Corpus - support dataviz
-status: closed
+title:  Makina Corpus
+status: clos
 layout: projects
 tech: [reactvis, kepler.gl]
 description: Prototypage

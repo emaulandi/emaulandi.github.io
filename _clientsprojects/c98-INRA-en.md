@@ -1,5 +1,5 @@
 ---
-title:  INRA - dataviz helper
+title:  INRA
 status: on-going
 layout: projects
 tech: [R, Shiny]

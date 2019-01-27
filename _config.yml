@@ -39,13 +39,15 @@ collections:
 
 menu:
  en:
-  - talks-en.md
   - about.md
+  - facilitation-en.md
+  - talks-en.md
   - feedbacks.md
   - inspiration-en.md
  fr:
-  - talks-fr.md
   - apropos.md
+  - facilitation.md
+  - talks-fr.md
   - retours.md
   - inspiration-fr.md
 

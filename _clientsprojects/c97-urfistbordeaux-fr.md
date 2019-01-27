@@ -1,6 +1,6 @@
 ---
-title:  UFRIST de Bordeaux - Hackaviz
-status: schedulded in 2019
+title:  UFRIST de Bordeaux
+status: prévu en mars 2019
 layout: projects
 tech: [R, Python, facilitation]
 img: img/urfist.jpg

@@ -1,5 +1,5 @@
 ---
-title:  Makina Corpus - dataviz helper
+title:  Makina Corpus
 status: completed
 layout: projects
 tech: [reactvis, kepler.gl]

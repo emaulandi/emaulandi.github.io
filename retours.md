@@ -5,9 +5,11 @@ ref: feedbacks
 lang: fr
 ---
 
+<blockquote class="twitter-tweet tw-align-center"><p lang="fr" dir="ltr">Retour d&#39;expérience d&#39;<a href="https://twitter.com/edithmaulandi?ref_src=twsrc%5Etfw">@edithmaulandi</a> pour partager son processus lors de l&#39;élaboration d&#39;une dataviz.<br>C&#39;est chouette et ça donne envie de s&#39;y mettre !<a href="https://t.co/0PsqToBLLl">https://t.co/0PsqToBLLl</a></p>&mdash; Julien Pradet (@JulienPradet) <a href="https://twitter.com/JulienPradet/status/1065229930714357760?ref_src=twsrc%5Etfw">November 21, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 [![Feeback Makina Corpus](/img/feedbackMakina.png)](https://www.linkedin.com/in/edith-m-12329070/)
 
-<blockquote class="twitter-tweet" data-lang="fr"><p lang="fr" dir="ltr">C&#39;est un talk superbe ! On a eu de la chance de l&#39;avoir à Montpellier 😊 <br>Inscrivez-vous sans hésitation ! <a href="https://t.co/baaWZy1dGW">https://t.co/baaWZy1dGW</a></p>&mdash; Lieva Anastasia 🐞 (@lievAnastazia) <a href="https://twitter.com/lievAnastazia/status/1060179021714128897?ref_src=twsrc%5Etfw">7 novembre 2018</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" data-lang="fr"><p lang="fr" dir="ltr">C&#39;est un talk superbe ! On a eu de la chance de l&#39;avoir à Montpellier 😊 <br>Inscrivez-vous sans hésitation ! <a href="https://t.co/baaWZy1dGW">https://t.co/baaWZy1dGW</a></p>&mdash; Lieva Anastasia 🐞 (@lievAnastazia) <a href="https://twitter.com/lievAnastazia/status/1060179021714128897?ref_src=twsrc%5Etfw">7 novembre 2018</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet tw-align-center" data-lang="fr"><p lang="en" dir="ltr">Excited to announce the results of the <a href="https://twitter.com/hashtag/VizforSocialGood?src=hash&amp;ref_src=twsrc%5Etfw">#VizforSocialGood</a> + <a href="https://twitter.com/DearTechPeople?ref_src=twsrc%5Etfw">@DearTechPeople</a> project.<br><br>Increasing diversity in tech has been my passion, and I couldn’t be prouder to see how our amazing volunteers used visualization to tell important stories about diversity. We need this. <a href="https://t.co/6z6k0rlRhs">pic.twitter.com/6z6k0rlRhs</a></p>&mdash; Chloe Tseng (@datachloe) <a href="https://twitter.com/datachloe/status/1005146240764428288?ref_src=twsrc%5Etfw">8 juin 2018</a></blockquote>

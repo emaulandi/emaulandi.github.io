@@ -1,6 +1,6 @@
 ---
-title:  INRA - support dataviz
-status: on-going
+title:  INRA
+status: en cours
 layout: projects
 tech: [R, Shiny]
 img: img/inra.jpg
