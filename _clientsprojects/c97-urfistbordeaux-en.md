@@ -1,6 +1,6 @@
 ---
 title:  UFRIST de Bordeaux
-status: schedulded in 2019
+status: completed - 2019
 layout: projects
 tech: [R, Python, facilitation]
 img: img/urfist.jpg

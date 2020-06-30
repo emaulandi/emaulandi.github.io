@@ -1,6 +1,6 @@
 ---
 title:  INRA
-status: on-going
+status: completed - 2019
 layout: projects
 tech: [R, Shiny]
 img: img/inra.jpg

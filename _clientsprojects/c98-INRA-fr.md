@@ -1,6 +1,6 @@
 ---
 title:  INRA
-status: en cours
+status: clos - 2019
 layout: projects
 tech: [R, Shiny]
 img: img/inra.jpg

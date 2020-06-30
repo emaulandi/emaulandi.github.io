@@ -19,21 +19,13 @@ ref: about
   <hr class="hr-border">
 
   <h3> My purpose is to create impact and engage through information design. </h3>
-  <p> <b> I am striving to find the best way to represent data to trigger understanding and action  </b> </p> 
+  <p> <b> I am striving to find the best way to represent data to trigger understanding and action  </b> </p>
   <p> :mag_right: On a journey to understand the world through data and information vizualisation </p>
   <p> :computer: From data research in the wild to dataviz conception and implementation </p>
   <p> :scream_cat: Always amazed by how fast visual stuff go to your brain </p>
   <p> :bar_chart: Love and learn D3.js </p>
 
 
-
-  <hr class="hr-border">
-  Aside from dataviz, I am dedicated to spread an audacious and action-based mindset with
-  <a class="niceLink" href="http://lesjoyeuxaudacieux.strikingly.com/" >Les Joyeux Audacieux</a>.
-  I also share my yearly challenge going zero waste on
-  <a class="niceLink" href="https://medium.com/@Ed_Patey" >Medium</a>.
-
-  <br>
   <hr class="hr-border">
 
 

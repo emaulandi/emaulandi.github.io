@@ -1,6 +1,6 @@
 ---
 title:  Listen Leon
-status: on going
+status: completed - 2019
 layout: projects
 tech: [d3, react]
 img: img/leon.png

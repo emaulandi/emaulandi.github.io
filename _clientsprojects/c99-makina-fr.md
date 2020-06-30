@@ -1,6 +1,6 @@
 ---
 title:  Makina Corpus
-status: clos
+status: clos - 2018
 layout: projects
 tech: [reactvis, kepler.gl]
 description: Prototypage
