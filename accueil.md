@@ -26,7 +26,7 @@ ref: index
               <p> Partie 1 : Rencontrez les 437 personnes interviewées 🙌</p>
               <p> Utilisez votre ordinateur, cette première partie ne supporte pas encore le mobile 💻</p>
           </span>
-          </a>
+          </a> 
         </div>
     </div>
 
